@@ -8,6 +8,11 @@ body {
 }
 section {
   margin-top: 80px;
+  margin-bottom: 50px;
+}
+/* NAVBAR STYLES */
+#brand {
+  font-family: 'Dancing Script', cursive;
 }
 #brand:hover{
   cursor: pointer;
@@ -23,6 +28,28 @@ section {
   border-radius: 15px;
   padding: 1px;
 }
+/* INTRO STYLES */
+.intro-div {
+  margin-left: 80px;
+  margin-right: 80px;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: bolder;
+}
+.headshot-div img{
+  width: 50%;
+  border-radius: 175px;
+}
+.brand-div {
+  padding: 10px;
+  background-image: linear-gradient(to top, lightgray, white);
+  box-shadow: 0px 2px 2px black;
+  /* text-shadow: 0px 1px 1px black; */
+  border-radius: 10px;
+  width: 50%;
+}
+/* COURSEL STYLES */
 .carousel-main-div {
   display: flex;
   justify-content: center;
@@ -36,8 +63,6 @@ section {
 }
 .carousel-card {
   text-align: center;
-  /* width: fit-content;
-  align-self: center; */
 }
 .carousel-card img{
   width: 700px;
@@ -45,7 +70,6 @@ section {
   border-radius: 20px;
   align-self: center;
 }
-
 /* BIO STYLES */
 .bio-container {
   display: flex;

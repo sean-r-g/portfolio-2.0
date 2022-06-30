@@ -8,7 +8,7 @@ const NavBar = ({handleShowHome, handleShowAbout}) => {
     return (
             <Navbar id='topnavbar' collapseOnSelect={true} fixed='top' variant='dark' expand="lg">
             <Container>
-            <Navbar.Brand id='brand' onClick={handleShowHome}>Sean's World</Navbar.Brand>
+            <Navbar.Brand id='brand' onClick={handleShowHome}>Sean Gillis</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto">
