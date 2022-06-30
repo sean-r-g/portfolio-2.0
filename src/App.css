@@ -7,7 +7,7 @@ body {
   font-family: 'Source Code Pro', monospace;
 }
 section {
-  margin-top: 80px;
+  margin-top: 110px;
   margin-bottom: 50px;
 }
 /* NAVBAR STYLES */
@@ -32,22 +32,32 @@ section {
 .intro-div {
   margin-left: 80px;
   margin-right: 80px;
+  margin-bottom: 300px;
+  margin-top: 200px;
   display: flex;
   flex-direction: row;
   font-family: 'Source Code Pro', monospace;
   font-weight: bolder;
 }
 .headshot-div img{
-  width: 50%;
+  /* width: 50%; */
   border-radius: 175px;
+  box-shadow: 0px 2px 2px black;
 }
 .brand-div {
   padding: 10px;
   background-image: linear-gradient(to top, lightgray, white);
   box-shadow: 0px 2px 2px black;
-  /* text-shadow: 0px 1px 1px black; */
   border-radius: 10px;
   width: 50%;
+  height: fit-content;
+  margin-left: 120px;
+}
+.brand-p {
+  padding-top: 25px;
+}
+#about {
+  height: 20px;
 }
 /* COURSEL STYLES */
 .carousel-main-div {
@@ -130,6 +140,21 @@ section {
   margin-top: 50px;
 }
 
+
+@media only screen and (max-width: 970px) {
+  .intro-div {
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .brand-div {
+    margin-left: 0px;
+    width: 100%;
+  }
+
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -138,3 +163,4 @@ section {
     transform: rotate(360deg);
   }
 }
+

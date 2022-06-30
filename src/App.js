@@ -28,11 +28,13 @@ function App() {
       @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
     </style>
     </head>
-      <NavBar handleShowHome={handleShowHome} handleShowAbout={handleShowAbout}/>
+      <NavBar/>
+      <div id='home'></div>
       <section>
-        {showHome ? <Intro/> : null}
-        {showHome ? <HeroSlider/> : null}
-        {showAbout ? <About/> : null}
+        <Intro/>
+        {/* <HeroSlider/> */}
+        <div id='about'></div>
+          <About/>
       </section>
     </body>
   )

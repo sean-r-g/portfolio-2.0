@@ -8,20 +8,20 @@ const NavBar = ({handleShowHome, handleShowAbout}) => {
     return (
             <Navbar id='topnavbar' collapseOnSelect={true} fixed='top' variant='dark' expand="lg">
             <Container>
-            <Navbar.Brand id='brand' onClick={handleShowHome}>Sean Gillis</Navbar.Brand>
+            <Navbar.Brand id='brand' href='#home'>Sean Gillis</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto">
-                <Nav.Link onClick={handleShowAbout}>About</Nav.Link>
+                <Nav.Link href='#about'>About</Nav.Link>
                 <Nav.Link>Experience</Nav.Link>
                 <Nav.Link>My Work</Nav.Link>
-                <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+                {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
                     <NavDropdown.Item>Action</NavDropdown.Item>
                     <NavDropdown.Item>Another action</NavDropdown.Item>
                     <NavDropdown.Item>Something</NavDropdown.Item>
                     <NavDropdown.Divider />
                     <NavDropdown.Item>Separated link</NavDropdown.Item>
-                </NavDropdown>
+                </NavDropdown> */}
                 </Nav>
                 <Nav>
                 <Nav.Link href='https://www.linkedin.com/in/seanrgillis/'>
