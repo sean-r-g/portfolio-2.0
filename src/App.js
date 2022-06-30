@@ -7,17 +7,17 @@ import Intro from './components/Intro';
 
 function App() {
 
-  const [showAbout, setShowAbout] = useState(true)
-  const [showHome, setShowHome] = useState(true)
+  // const [showAbout, setShowAbout] = useState(true)
+  // const [showHome, setShowHome] = useState(true)
   
-  const handleShowHome = () => {
-    setShowAbout(false)
-    setShowHome(true)
-  }
-  const handleShowAbout = () => {
-    setShowAbout(true)
-    setShowHome(false)
-  }
+  // const handleShowHome = () => {
+  //   setShowAbout(false)
+  //   setShowHome(true)
+  // }
+  // const handleShowAbout = () => {
+  //   setShowAbout(true)
+  //   setShowHome(false)
+  // }
   
 
   return (
@@ -32,9 +32,10 @@ function App() {
       <div id='home'></div>
       <section>
         <Intro/>
-        {/* <HeroSlider/> */}
         <div id='about'></div>
-          <About/>
+        <About/>
+        <div id='projects'></div>
+        <HeroSlider/>
       </section>
     </body>
   )

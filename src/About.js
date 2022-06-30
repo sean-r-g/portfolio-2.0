@@ -3,6 +3,7 @@ const About = () => {
     return (
         <>
     <div class="bio-container" id="bio">
+        <h2 id="about-title">A Little About Me</h2>
       <div class="bio-section" id='background'>
         <article class="bio-article">
           <h3>Background</h3>

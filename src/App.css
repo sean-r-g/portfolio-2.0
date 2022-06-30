@@ -56,7 +56,7 @@ section {
 .brand-p {
   padding-top: 25px;
 }
-#about {
+#about, #projects {
   height: 20px;
 }
 /* COURSEL STYLES */
@@ -91,6 +91,11 @@ section {
   font-family: 'Source Code Pro', monospace;
   /* font-weight: bold; */
 }
+#about-title {
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
 .bio-section {
   display: flex;
   flex-direction: row;
@@ -116,13 +121,6 @@ section {
 .bio-spacer {
   width: 50%;
 }
-/* .bio-article:hover {
-  transform: scale(1.05);
-  margin-top: 30px;
-  margin-bottom: 30px;
-  box-shadow: 0px 4px 4px 4px #FF6B53;
-} */
-
 .bio-article li {
   list-style:circle
 }
