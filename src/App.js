@@ -4,6 +4,7 @@ import NavBar from './components/Nav';
 import HeroSlider from './components/Carousel';
 import About from './About';
 import Intro from './components/Intro';
+import Projects from './components/Projects';
 
 function App() {
 
@@ -36,6 +37,7 @@ function App() {
         <About/>
         <div id='projects'></div>
         <HeroSlider/>
+        <Projects/>
       </section>
     </body>
   )
