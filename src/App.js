@@ -36,7 +36,7 @@ function App() {
         <div id='about'></div>
         <About/>
         <div id='projects'></div>
-        <HeroSlider/>
+        {/* <HeroSlider/> */}
         <Projects/>
       </section>
     </body>

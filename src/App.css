@@ -137,7 +137,33 @@ section {
   border: 1px transparent;
   margin-top: 50px;
 }
+/* PROJECTS */
+.table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+}
+table img {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 
+}
+td{
+  padding-right: 40px;
+  padding-bottom: 100px;
+}
+.table-pic td{
+  text-align: center;
+}
+td img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
 
 @media only screen and (max-width: 970px) {
   .intro-div {
