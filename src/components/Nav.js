@@ -13,8 +13,8 @@ const NavBar = ({handleShowHome, handleShowAbout}) => {
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto">
                 <Nav.Link href='#about'>About</Nav.Link>
-                <Nav.Link>Experience</Nav.Link>
                 <Nav.Link href='#projects'>My Work</Nav.Link>
+                <Nav.Link>Experience</Nav.Link>
                 {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
                     <NavDropdown.Item>Action</NavDropdown.Item>
                     <NavDropdown.Item>Another action</NavDropdown.Item>
