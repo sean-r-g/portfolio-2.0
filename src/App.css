@@ -56,6 +56,10 @@ section {
 .brand-p {
   padding-top: 25px;
 }
+.brand-div h5{
+  font-weight: bolder;
+  text-align: center;
+}
 #about, #projects {
   height: 20px;
 }
@@ -151,7 +155,7 @@ table img {
   margin-right: auto;
 
 }
-td{
+td {
   padding-right: 40px;
   padding-bottom: 100px;
 }

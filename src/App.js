@@ -2,7 +2,7 @@ import './App.css';
 import {useState, useEffect} from 'react'
 import NavBar from './components/Nav';
 import HeroSlider from './components/Carousel';
-import About from './About';
+import About from './components/About';
 import Intro from './components/Intro';
 import Projects from './components/Projects';
 
@@ -36,7 +36,7 @@ function App() {
         <div id='about'></div>
         <About/>
         <div id='projects'></div>
-        {/* <HeroSlider/> */}
+        <HeroSlider/>
         <Projects/>
       </section>
     </body>

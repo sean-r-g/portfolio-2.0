@@ -7,7 +7,9 @@ const projectPics = [
     'https://i.imgur.com/4Jx6dOa.png',
     'https://i.imgur.com/thrO43y.png',
     'https://i.imgur.com/5NpZDX2.png',
-    'https://i.imgur.com/ik3psxo.png'
+    'https://i.imgur.com/ik3psxo.png',
+    'https://i.imgur.com/ZqqLFHX.png',
+    'https://i.imgur.com/rqroBlG.png'
 ]   
 
 const HeroSlider = (props) => {
