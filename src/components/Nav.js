@@ -14,7 +14,7 @@ const NavBar = ({handleShowHome, handleShowAbout}) => {
                 <Nav className="me-auto">
                 <Nav.Link href='#about'>About</Nav.Link>
                 <Nav.Link href='#projects'>My Work</Nav.Link>
-                <Nav.Link href="https://drive.google.com/file/d/1585xCX_5SCzyMgZYz-4sWKZKFnUwiS82/view?usp=sharing">Experience</Nav.Link>
+                <Nav.Link href="https://drive.google.com/file/d/16k2DLNAaqY9-WtNn-1wQwK74Jf6Actll/view?usp=sharing">Experience</Nav.Link>
                 {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
                     <NavDropdown.Item>Action</NavDropdown.Item>
                     <NavDropdown.Item>Another action</NavDropdown.Item>

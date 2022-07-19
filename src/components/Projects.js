@@ -1,16 +1,21 @@
+import Table from 'react-bootstrap/Table'
+
 const Projects = () => {
 
     return (
 
 
     <div class="table-container">
-        <table>
-        <tr>
-            <th>Application</th>
-            <th>Overview</th>
-            <th>Technologies</th>
-            <th>Repositories</th>
-        </tr>
+        <Table striped bordered hover variant="dark">
+        <thead>
+            <tr>
+                <th>Application</th>
+                <th>Overview</th>
+                <th>Technologies</th>
+                <th>Repositories</th>
+            </tr>
+        </thead>
+        <tbody>
         <tr>
             <td><a class="project-link" href="https://trivializer-game.herokuapp.com/">Trivializer</a></td>
             <td>Trivializer is a free to play trivia game where users can create accounts, save high scores, and compare scores using the leaderboard</td>
@@ -40,7 +45,8 @@ const Projects = () => {
             <td>GitHub Repos (<a class="project-link" href="https://github.com/sean-r-g/DIY-app-frontend">Front End</a> & <a class="project-link" href="https://github.com/sean-r-g/DIY-app-backend">Back End</a>)</td>
         </tr>
         {/* <img src="https://i.imgur.com/thrO43y.png"/> */}
-        </table>
+        </tbody>
+        </Table>
   </div>
         
     )
