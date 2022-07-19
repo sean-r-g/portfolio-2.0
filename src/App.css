@@ -190,7 +190,7 @@ td img{
     padding: 5px;
   }
   .headshot-div img{
-    width: 70%;
+    width: 60%;
     margin-bottom: 20px;
   }
   .intro-div {
@@ -210,11 +210,14 @@ td img{
   .bio-article {
     width: 100%;
     margin: 1px;
+    margin-bottom: 20px;
+    margin-right: -80px;
+    margin-left: 30px;
   }
   .table-container {
-    margin-left: 20px;
-    width: fit-content;
-    font-size: small;
+    margin-left: 10px;
+    width: 380px;
+    font-size: 12px;
   }
   #about-title, #project-title {
     font-size: 40px;
@@ -224,7 +227,7 @@ td img{
   }
   .carousel-card img{
     width: 400px;
-    margin-left: 140px;
+    margin-left: 50px;
   }
 
 }
