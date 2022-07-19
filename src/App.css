@@ -43,6 +43,7 @@ section {
   /* width: 50%; */
   border-radius: 175px;
   box-shadow: 0px 2px 2px black;
+  margin-bottom: 30px;
 }
 .brand-div {
   padding: 10px;
@@ -97,8 +98,10 @@ section {
 }
 #about-title {
   text-align: center;
-  font-weight: bold;
+  font-weight: bolder;
   text-decoration: underline;
+  font-size: 48px;
+  margin-bottom: 80px;
 }
 .bio-section {
   display: flex;
@@ -142,6 +145,14 @@ section {
   margin-top: 50px;
 }
 /* PROJECTS */
+#project-title{
+  font-size: 48px;
+  margin-bottom: 80px;
+  text-decoration: underline;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: bolder;
+
+}
 .table-container {
   display: flex;
   flex-direction: column;
@@ -153,7 +164,9 @@ table img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-
+}
+tr{
+  height: 100px;
 }
 td {
   padding-right: 40px;
@@ -170,15 +183,48 @@ td img{
 }
 
 @media only screen and (max-width: 970px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+  }
+  .headshot-div img{
+    width: 70%;
+    margin-bottom: 20px;
+  }
   .intro-div {
     flex-direction: column;
     justify-content: center;
     margin-left: 10px;
     margin-right: 10px;
+    margin-top: 0px;
   }
   .brand-div {
     margin-left: 0px;
     width: 100%;
+  }
+  .bio-spacer {
+    display: none;
+  }
+  .bio-article {
+    width: 100%;
+    margin: 1px;
+  }
+  .table-container {
+    margin-left: 20px;
+    width: fit-content;
+    font-size: small;
+  }
+  #about-title, #project-title {
+    font-size: 40px;
+  }
+  .carousel-card {
+    align-content: center;
+  }
+  .carousel-card img{
+    width: 400px;
+    margin-left: 140px;
   }
 
 }

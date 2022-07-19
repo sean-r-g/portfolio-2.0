@@ -6,6 +6,7 @@ const Projects = () => {
 
 
     <div class="table-container">
+        <h2 id="project-title">My Work</h2>
         <Table striped bordered hover variant="dark">
         <thead>
             <tr>
@@ -16,7 +17,7 @@ const Projects = () => {
             </tr>
         </thead>
         <tbody>
-        <tr>
+        <tr className='table-row'>
             <td><a class="project-link" href="https://trivializer-game.herokuapp.com/">Trivializer</a></td>
             <td>Trivializer is a free to play trivia game where users can create accounts, save high scores, and compare scores using the leaderboard</td>
             <td>PostgreSQL, Express.js, React, Node.js, Bootstrap</td>
@@ -27,9 +28,6 @@ const Projects = () => {
             <td>Sean's Kitchen is a hub for new and experiences home chefs to explore new recipes, add their own favorites, and edit exiting ones as necessary</td>
             <td>Express.js, EJS, MongoDB, Node.js</td>
             <td><a class="project-link" href="https://github.com/sean-r-g/CRUDApp1">GitHub Repo</a></td>
-        </tr>
-        <tr>
-        {/* <img className="table-pic" src='https://i.imgur.com/4Jx6dOa.png'/> */}
         </tr>
         <tr>
             <td><a class="project-link" href="https://real-estate-front-end12.herokuapp.com/">realitive</a></td>
