@@ -1,3 +1,4 @@
+import Icons from "./Icons"
 const Intro = () => {
 
     return (
@@ -12,6 +13,9 @@ const Intro = () => {
                     </p>
                     {/* <h5><a href="https://drive.google.com/file/d/1585xCX_5SCzyMgZYz-4sWKZKFnUwiS82/view?usp=sharing">View Resume</a></h5> */}
                 </div>
+            </div>
+            <div id="icon-div">
+                <Icons/>
             </div>
         </>
     )

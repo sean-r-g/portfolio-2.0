@@ -5,6 +5,8 @@ import HeroSlider from './components/Carousel';
 import About from './components/About';
 import Intro from './components/Intro';
 import Projects from './components/Projects';
+import Icons from './components/Icons';
+
 
 function App() {
 

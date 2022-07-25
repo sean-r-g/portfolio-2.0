@@ -64,6 +64,10 @@ section {
 #about, #projects {
   height: 20px;
 }
+#icon-div {
+  text-align: center;
+  margin-bottom: 200px;
+}
 /* COURSEL STYLES */
 .carousel-main-div {
   display: flex;
