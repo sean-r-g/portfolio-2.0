@@ -8,8 +8,8 @@ const About = () => {
         <article class="bio-article">
           <h3>Background</h3>
           <p>Welcome! I'm Sean Gillis, a software engineer with over five years experience working in the tech industry. I've spent the past several years leading teams of developers, data engineers, and analysts as a project manager -- and now I want be a part of those very teams.</p>
-          <p>I've been playing with and working on computers since before grade school, and have carried that passion with me into my professional career. Now, I'm working to make this lifelong passion a focal point of my career.</p>
-          <p>Since graduating from Boston College in 2016, I've moved from one tech hub to another, starting with the city of Boston itself. From there, I moved to Madison, Wisconsin to experience their burgeoning tech scene while working for a leading healthcare software company. Recently, I relocated to one of the hottest cities in the tech industry -- Austin, Texas -- where I will look to further my career as a software engineer.</p>
+          <p>I've been playing with and working on computers since before grade school, and have carried that passion with me into my professional career. Now, I've made this lifelong passion a focal point of my career.</p>
+          <p>Since graduating from Boston College in 2016, I've moved from one tech hub to another, starting with the city of Boston itself. From there, I moved to Madison, Wisconsin to experience their burgeoning tech scene while working for a leading healthcare software company. Recently, I relocated to one of the hottest cities in the tech industry -- Austin, Texas -- where I furthering my career as a software engineer.</p>
         </article>
         <div className="bio-spacer"></div>
         {/* <img id="comp-img" src="../images/comp-clipart.png"></img> */}
